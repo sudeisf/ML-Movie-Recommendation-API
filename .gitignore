@@ -4,3 +4,6 @@ myenv
 links.csv
 movies.csv
 ratings.csv
+__pycache__/
+*.pyc
+cache/
