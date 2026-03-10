@@ -2,6 +2,14 @@
 
 FastAPI backend for content-based movie recommendations with rating adjustment and optional TMDb enrichment.
 
+## About
+
+Movie Recommendation API is a FastAPI backend that combines TF-IDF content similarity with average user rating signals to return relevant movie suggestions. The service can enrich responses with TMDb metadata (overview and poster), uses environment-based configuration for secrets, and follows a modular project structure for maintainability and safer deployments.
+
+## Topics
+
+`fastapi`, `python`, `movie-recommendation`, `recommendation-system`, `machine-learning`, `content-based-filtering`, `tfidf`, `cosine-similarity`, `pandas`, `scikit-learn`, `tmdb-api`, `rest-api`
+
 ## What Improved
 
 - Moved from a single-file app to a modular folder structure (`app/core`, `app/services`, `app/api`, `app/schemas`).
